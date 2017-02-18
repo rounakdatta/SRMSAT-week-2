@@ -11,9 +11,9 @@ float cubeq(float bu, float cu, float du)
 	ca=2*pow((-p/3),0.5);
 	fi=acos((3*q)/(ca*p));
 	cb=-bu/(3*au);
-	eig[0]=ca*cos(fi/3)+cb;
-	eig[1]=ca*cos((fi+2*3.14)/3)+cb;
-	eig[2]=ca*cos((fi+4*3.14)/3)+cb;
+	eig[0]=nearbyint(ca*cos(fi/3)+cb);
+	eig[1]=nearbyint(ca*cos((fi+2*3.14)/3)+cb);
+	eig[2]=nearbyint(ca*cos((fi+4*3.14)/3)+cb);
 	cout<<"\nFirst eigen value: "<<-eig[0];
 	cout<<"\nSecond eigen value: "<<-eig[1];
 	cout<<"\nThird eigen value: "<<-eig[2];
