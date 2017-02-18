@@ -1,6 +1,6 @@
 twovar.cpp : C++ program to find the value of 2 unknown variables from 2 linear equations. 
 
-threevar.cpp : C++ program to find the value of 3 unknown variables from 3 linear equations.
+eigenvector.cpp : C++ program to find the eigen vectors of a 3x3 matrix.
 
 eigenval.cpp : C++ program to find the eigen values of a 2X2 matrix.
 
